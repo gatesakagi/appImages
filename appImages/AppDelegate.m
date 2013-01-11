@@ -12,7 +12,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    sleep(3); //設定APP開啓後過3秒後才進去主畫面
     return YES;
 }
 							
